@@ -25,9 +25,14 @@
         </strong>
         <hr/>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Pedro</li>
+            <li>Kaio</li>
+            <li>Juliana</li>
         </ul>
+        <hr>
+        <ol>
+            <li>Bangu</li>
+            <li>Paulista</li>
+        </ol>
     </body>
 </html>
