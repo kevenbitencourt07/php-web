@@ -62,3 +62,7 @@ main {
     /* Borda inferior laranja */
     border-bottom: 3px solid #ff9800;
 }
+
+.card p {
+    font-size: 17px;
+}
