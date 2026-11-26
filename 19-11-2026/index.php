@@ -19,7 +19,7 @@
                 <h2>Primeiro contato com PHP</h2>
 
                 <?php
-                    echo "Olá Turma!";
+                    echo "Olá pessoas!";
                 ?>
 
             </div>
@@ -57,6 +57,7 @@
                     $divisao = $numero1 / $numero2;
                 ?>
 
+                <p><strong>Números: </strong> <?= $numero1 ?> e <?= $numero2 ?></p>
                 <p><strong>Soma: </strong> <?= $soma ?></p>
                 <p><strong>Subtração: </strong> <?= $subtracao ?></p>
                 <p><strong>Multiplicação: </strong> <?= $multiplicacao ?></p>
