@@ -55,6 +55,48 @@
 
                 <p><strong>Nota do aluno: </strong> <?= $nota ?> </p>
                 <p><strong>Resultado: </strong> <?= $resultado ?> </p>
+             </div>
+
+             <div class="card">
+                <h2>Pode entrar na festa?</h2>
+
+                <?php
+                    // Entrada de dados
+                    $nome = "Luzimar";
+                    $idade = 19;
+
+                    // Verifica se a pessoa pode entrar na festa
+                    if ($idade >= 18) {
+                        $entrada = "Permitida";
+                    } else {
+                        $entrada = "Não permitida";
+                    }
+                ?>
+
+                <p><strong>Nome: </strong> <?= $nome ?> </p>
+                <p><strong>Idade: </strong> <?= $idade ?> anos</p>
+                <p><strong>Entrada: </strong> <?= $entrada ?> </p>
+             </div>
+
+             <div class="card">
+                <h2>Suspensão do jogador</h2>
+
+                <?php
+                    // Dados do jogador
+                    $nome = "Luca";
+                    $cartoes = 1;
+
+                    // Status do jogador
+                    if ($cartoes >= 3) {
+                        $status = "Suspenso da partida";
+                    } else {
+                        $status = "Jogando";
+                    }
+                ?>
+
+                <p><strong>Nome: </strong> <?= $nome ?> </p>
+                <p><strong>Cartões amarelos: </strong> <?= $cartoes ?> cartões</p>
+                <p><strong>Status: </strong> <?= $status ?> </p>
 
              </div>
 
